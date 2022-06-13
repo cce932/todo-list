@@ -1,3 +1,9 @@
+#nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 #nav ul {
   height: 55px;
   background-color: #8dc8ff;

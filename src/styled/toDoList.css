@@ -1,8 +1,9 @@
 .todo-list-wrapper {
   border: 1px solid #c7c3c6;
-  margin: 20px 20%;
+  margin: 75px 20% 20px;
   background-color: white;
   padding: 20px;
+  border-radius: 4px;
 }
 
 .todo-list-wrapper h3 {
