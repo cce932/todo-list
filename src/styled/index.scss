@@ -1,0 +1,19 @@
+* {
+  font-size: 18px; /* root font-size */
+}
+
+body {
+  background-color: $background-color;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}

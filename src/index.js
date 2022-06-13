@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './styled/reset.css';
+import './styled/index.css';
 
 const root = document.getElementById('root');
 
