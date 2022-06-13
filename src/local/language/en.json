@@ -1,3 +1,8 @@
 {
   "title": "HandsUp",
+  "appTitle": "Todo List",
+  "todoInputPlaceholder" : "Add new todo",
+  "duplicateError": "The todo is duplicated",
+  "emptyError": "Should not be empty",
+  "commonError": "Error occurred, please refresh"
 }

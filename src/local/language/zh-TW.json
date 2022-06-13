@@ -1,3 +1,8 @@
 {
   "title": "待辦清單",
+  "appTitle": "待辦清單",
+  "todoInputPlaceholder" : "請輸入要做的事情",
+  "duplicateError": "請勿重複新增相同的代辦事項",
+  "emptyError": "代辦事項請勿為空",
+  "commonError": "發生錯誤，請重新整理"
 }
