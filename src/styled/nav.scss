@@ -17,6 +17,11 @@
       margin: 0 10px;
     }
 
+    #nav__item-toggle-bar > button {
+      display: flex;
+      align-items: center;
+    }
+
     #nav__item-title {
       flex-grow: 1;
 

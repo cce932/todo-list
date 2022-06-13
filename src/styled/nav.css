@@ -24,6 +24,15 @@
   margin: 0 10px;
 }
 
+#nav ul #nav__item-toggle-bar > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #nav ul #nav__item-title {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
