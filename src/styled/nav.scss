@@ -1,0 +1,34 @@
+@import 'global';
+
+#nav {
+  ul {
+    height: 55px;
+    background-color: $primary-color;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    & > li {
+      margin: 0 10px;
+    }
+
+    #nav__item-title {
+      flex-grow: 1;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+
+    #nav__item-language-config {
+      button {
+        margin: 0 5px;
+      }
+      & > * {
+        color: $white;
+      }
+    }
+  }
+}

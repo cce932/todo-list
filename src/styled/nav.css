@@ -1,0 +1,38 @@
+#nav ul {
+  height: 55px;
+  background-color: #8dc8ff;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#nav ul > li {
+  margin: 0 10px;
+}
+
+#nav ul #nav__item-title {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#nav ul #nav__item-title a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav ul #nav__item-language-config button {
+  margin: 0 5px;
+}
+
+#nav ul #nav__item-language-config > * {
+  color: white;
+}
