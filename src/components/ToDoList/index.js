@@ -11,7 +11,7 @@ import Item from './Item';
 const LOCAL_STORAGE_KEY = '17live-pretest-todo-list';
 
 function ToDoList() {
-  const description = useRef();
+  const descriptionRef = useRef();
   const [todos, setTodos] = useState([]);
   const [error, setError] = useState('');
   const [isLoading, setLoading] = useState(false);
@@ -48,7 +48,7 @@ function ToDoList() {
     setLoading(true);
     setError('');
 
-    const currentDescription = description.current?.value;
+    const currentDescription = descriptionRef.current?.value;
     const validator = validate(currentDescription);
 
     if (validator.result) {
@@ -72,7 +72,7 @@ function ToDoList() {
       </div>
       <div>
         <form onSubmit={addTodoItem}>
-          <input type="text" ref={description} placeholder={t('todoInputPlaceholder')} />
+          <input type="text" ref={descriptionRef} placeholder={t('todoInputPlaceholder')} />
           <button type="submit">{isLoading ? <Spinner className="small" /> : <PlusIcon className="small" /> }</button>
         </form>
         {Boolean(error.length) && <div className="error-msg">{error}</div>}
